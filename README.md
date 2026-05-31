@@ -16,8 +16,7 @@ Rendering and visualization are done using SFML,C++.
 * Orbital simulation under Newtonian gravity
 * Euler method implementation
 * RK4 implementation
-* Real-time visualization using SFML
-* Orbit trails
+* visualization using SFML
 * Comparison of numerical stability for different methods and step sizes
 
 ---
@@ -118,14 +117,27 @@ RK4 remains significantly more stable for comparable step sizes.
 
 ---
 
-# Additional Notes
+## RK4 Orbit
 
-A PDF report discussing numerical ODE methods used in this project is included in the repository.
+![RK4 Orbit with Step Size = 0.1](images/RK4_h=0.1.png)
+![RK4 Orbit  with Step Size = 0.5](images/RK4_h=0.5.png)
 
 ---
 
-# Future Improvements(Maybe)
+## Euler Orbit
 
-* N-body simulation
-* 3D orbital mechanics
-* GPU acceleration
+![Euler Orbit with Step Size = 0.1](images/RK4_h=0.1.png)
+![Euler Orbit  with Step Size = 0.5](images/RK4_h=0.5.png)
+![Euler Orbit  with Step Size = 0.01](images/RK4_h=0.01.png)
+
+Step size = 0.01 is significantly slower (almost more than a couple minutes for one revolution)
+
+
+---
+
+
+# Additional Notes
+
+A PDF report discussing numerical ODE methods used in this project is included in the repository.[Full Report](docs/Numeric_ODE_report.pdf)
+
+---
