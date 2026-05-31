@@ -117,20 +117,33 @@ RK4 remains significantly more stable for comparable step sizes.
 
 ---
 
-## RK4 Orbit
+## RK4 Orbit with Step Size = 0.1
 
 ![RK4 Orbit with Step Size = 0.1](images/RK4_h=0.1.png)
+
+## RK4 Orbit with Step Size = 0.5
+
 ![RK4 Orbit  with Step Size = 0.5](images/RK4_h=0.5.png)
 
 ---
 
-## Euler Orbit
+## Euler Orbit with Step Size = 0.1
 
 ![Euler Orbit with Step Size = 0.1](images/EULER_h=0.1.png)
+
+Unsatble orbit
+
+## Euler Orbit with Step Size = 0.5
+
 ![Euler Orbit  with Step Size = 0.5](images/EULER_h=0.5.png)
+
+Unsatble orbit
+
+## Euler Orbit with Step Size = 0.01
+
 ![Euler Orbit  with Step Size = 0.01](images/EULER_h=0.01.png)
 
-Step size = 0.01 is significantly slower (almost more than a couple minutes for one revolution)
+Unsatble orbit(but slightly improved).Step size = 0.01 is significantly slower (almost more than a couple minutes for one revolution)
 
 
 ---
