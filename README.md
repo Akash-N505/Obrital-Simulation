@@ -151,6 +151,6 @@ Unsatble orbit(but slightly improved).Step size = 0.01 is significantly slower (
 
 # Additional Notes
 
-A PDF report discussing numerical ODE methods used in this project is included in the repository.[Full Report](docs/Numeric_ODE_report.pdf)
+A short and simple PDF report discussing basics of numerical ODE methods and their stablity. [Full Report](docs/Numeric_ODE_report.pdf)
 
 ---
