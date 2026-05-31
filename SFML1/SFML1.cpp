@@ -9,12 +9,12 @@
 int main()
 {
     //basic sfml stuff
-    sf::RenderWindow window(sf::VideoMode({ 1920, 1080 }), "My Program");
+    sf::RenderWindow window(sf::VideoMode({ 1920,1080 }), "My Program");
     window.setFramerateLimit(60);
 
     //Creating and setting values for our objects
     GravitySource sun(500000.0, 960, 540);
-    GravityParticle earth(1.0, 1260, 540, 0, -22);// eart mass doesnt matter for calculations so we just give 1 and scale K and sun mass accordingly 
+    GravityParticle earth(1.0, 1500, 540, 0, -12);// eart mass doesnt matter for calculations so we just give 1 and scale K and sun mass accordingly 
 
     sf::CircleShape S;
     sf::CircleShape P;
@@ -31,7 +31,7 @@ int main()
 
     //Handling Step size
     double t = 0;
-    double h = 0.5;
+    double h = 0.1;
 
    //handling Orbit visualization 
     std::vector<sf::Vertex> trail;
